@@ -97,7 +97,7 @@ function render() {
   document.getElementById('count').textContent = `顯示 ${list.length} / ${DATA.length} 條`;
   document.getElementById('grid').innerHTML = list.map(d => `
     <a class="card" href="${d.u}" target="_blank" rel="noopener">
-      <div class="top"><span class="cat">${d.c}</span><span>粵典 ↗</span></div>
+      <div class="top"><span class="cat">${d.c}</span><span>來源 ↗</span></div>
       <div class="name">${d.n}</div>
       <div class="jyut">${d.j}</div>
       <p class="sum">${d.s}</p>
